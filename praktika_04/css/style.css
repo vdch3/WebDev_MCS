@@ -8,11 +8,18 @@ body {
 
 .header {
 	height: 200px;
-	background: #E5E000;
+	background-color: #E5E000;
 }
 
-.headingText {
+.header__heading {
+	line-height: 200px;
 	color: #FFFFFF;
+}
+
+.image {
+	height: 1440px;
+	background-size: cover;
+	background-image: url(../img/img.png);
 }
 
 .nav {
@@ -20,23 +27,40 @@ body {
 	background: #E5E000;
 }
 
-.navigationText, .navigationText a {
+.nav__paragraph {
 	font-size: 25px;
-	line-height: 29px;
+	line-height: 105px;
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+
+.nav__paragraph a {
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
-.paragraph {
-	height: 847px;
+.about-practice {
+	height: 1050px;
 }
 
-.mainText {
+.about-practice__heading {
+	line-height: 250px;
+}
+
+.about-practice__paragraph {
 	font-weight: 300;
 }
 
-.footer-container {
+.footer {
 	height: 200px;
 	background: #E5E000;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.footer__paragraph {
+	text-align: right;
+	line-height: 200px;
+	color: #FFFFFF;
 }
