@@ -1,0 +1,164 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header {
+	position: sticky;
+	top: -1px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    padding: 0 37.5px;
+    background: white;
+}
+
+.navigation-container {
+    display: flex;
+}
+
+.logo,
+.linkOne,
+.linkTwo,
+.linkThree {
+    margin: 12.5px;
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+    text-decoration: none;
+}
+
+.mainBackground {
+    display: flex;
+    height: 950px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainHearing {
+    margin: auto;
+    font-size: 100px;
+    line-height: 115px;
+    color: #E50043;
+}
+
+.ourWater-container {
+    margin: 150px auto;
+    padding: 24px;
+    width: 1040px;
+    height: 280px;
+    border: 3px solid #F8BFC7;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ourWaterText {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.75px;
+    letter-spacing: 5%;
+}
+
+.bottles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    height: 863px;
+    width: 1040px;
+}
+
+.wang {
+    width: 281px;
+    background-image: url(../img/wang.jpg);
+}
+
+.lacroix {
+    width: 279px;
+    background-image: url(../img/lacroix.jpg);
+}
+
+.chiara {
+    width: 280px;
+    background-image: url(../img/chiara.jpg);
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    width: 1008px;
+    margin-top: 42px;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.textWang {
+    width: 248px;
+}
+
+.textLacroix {
+    width: 249px;
+}
+
+.textChiara {
+    width: 237px;
+}
+
+.composition-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px auto;
+    height: 280px;
+    width: 1040px;
+    border: 3px solid #F8BFC7;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.compositionLogo {
+    height: 220px;
+    width: 101px;
+    margin: 0 80px;
+    background-image: url(../img/evian.jpg);
+}
+
+.compositionText {
+    height: 220px;
+    width: 749px;
+    font-size: 25px;
+    line-height: 28.75px;
+    letter-spacing: 0.05em;
+}
+
+.footer-container {
+    display: flex;
+    height: 140px;
+    background-color: #F8BFC7;
+}
+
+.copyright {
+    margin: auto 50px;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
