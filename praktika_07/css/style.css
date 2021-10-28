@@ -29,8 +29,6 @@
 			left: 50%;
 			margin-top: -200px;
 			margin-left: -200px;
-			border-radius: 50%
-			background-color: pink;
-			
-			animation: rotate 4s linear .5s infinite;
+			animation: rotate 4s linear infinite;
+			ani
 		}
