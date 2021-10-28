@@ -1,5 +1,18 @@
 body {
-	font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
+}
+
+.paragraphStyle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28.75px;
+    letter-spacing: 5%;
+}
+
+.borderStyle {
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .page {
@@ -9,8 +22,8 @@ body {
 }
 
 .header {
-	position: sticky;
-	top: -1px;
+    position: sticky;
+    top: -1px;
 }
 
 .header-container {
@@ -53,72 +66,33 @@ body {
     color: #E50043;
 }
 
+.ourWater {
+    padding: 150px 0;
+}
+
 .ourWater-container {
-    margin: 150px auto;
+    margin: 0px auto;
     padding: 24px;
     width: 1040px;
     height: 280px;
-    border: 3px solid #F8BFC7;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-.ourWaterText {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 28.75px;
-    letter-spacing: 5%;
 }
 
 .bottles-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.images {
-    display: flex;
     justify-content: space-between;
-    height: 863px;
+    margin: 0 auto;
+    box-sizing: border-box;
     width: 1040px;
-}
-
-.wang {
-    width: 281px;
-    background-image: url(../img/wang.jpg);
-}
-
-.lacroix {
-    width: 279px;
-    background-image: url(../img/lacroix.jpg);
-}
-
-.chiara {
-    width: 280px;
-    background-image: url(../img/chiara.jpg);
-}
-
-.names {
-    display: flex;
-    justify-content: space-between;
-    height: 58px;
-    width: 1008px;
-    margin-top: 42px;
+    height: 969px;
     font-size: 25px;
     line-height: 29px;
     text-align: center;
 }
 
-.textWang {
-    width: 248px;
-}
-
-.textLacroix {
-    width: 249px;
-}
-
-.textChiara {
-    width: 237px;
+.bottle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .composition-container {
@@ -128,9 +102,6 @@ body {
     margin: 150px auto;
     height: 280px;
     width: 1040px;
-    border: 3px solid #F8BFC7;
-    box-sizing: border-box;
-    border-radius: 20px;
 }
 
 .compositionLogo {
@@ -143,9 +114,6 @@ body {
 .compositionText {
     height: 220px;
     width: 749px;
-    font-size: 25px;
-    line-height: 28.75px;
-    letter-spacing: 0.05em;
 }
 
 .footer-container {
