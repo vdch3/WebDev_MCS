@@ -1,0 +1,83 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: black;
+}
+
+.header-container,
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 100vw;
+}
+
+.mistyroseStyle {
+    background-color: mistyrose;
+}
+
+.hearingStyle {
+    font-size: 50px;
+    line-height: 57.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px;
+    margin: auto;
+}
+
+.cocktail {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 100px)/3);
+    border: 1px solid mistyrose;
+    box-sizing: border-box;
+}
+
+.place {
+	cursor: pointer;
+    position: relative;
+}
+
+.placeholder {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: .7s ease-in-out;
+}
+
+.recipe {
+	margin: 33px;
+}
+
+.placeholder:hover {
+opacity: .7;
+}
+
+.paragraphStyle {
+    font-size: 20px;
+    line-height: 25px;
+    color: mistyrose;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.history {
+    margin: 30px 33px;
+}
+
+.cocktail h1 {
+    font-weight: 700;
+}
