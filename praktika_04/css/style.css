@@ -6,12 +6,17 @@ body {
 	font-style: normal;
 }
 
-.header {
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.header-container {
 	height: 200px;
 	background-color: #E5E000;
 }
 
-.header__heading {
+.mainHeading {
 	line-height: 200px;
 	color: #FFFFFF;
 }
@@ -27,31 +32,26 @@ body {
 	background: #E5E000;
 }
 
-.nav__paragraph {
+.navText {
 	font-size: 25px;
 	line-height: 105px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
 
-.nav__paragraph a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-.about-practice {
+.aboutPractice-container {
 	height: 1050px;
 }
 
-.about-practice__heading {
+.heading {
 	line-height: 250px;
 }
 
-.about-practice__paragraph {
+.mainText {
 	font-weight: 300;
 }
 
-.footer {
+.footer-container {
 	height: 200px;
 	background: #E5E000;
 	background-image: url(../img/logo.png);
@@ -59,7 +59,7 @@ body {
 	background-position: left;
 }
 
-.footer__paragraph {
+.footerText {
 	text-align: right;
 	line-height: 200px;
 	color: #FFFFFF;
