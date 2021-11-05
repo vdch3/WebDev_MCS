@@ -31,6 +31,8 @@ body {
     text-align: center;
     border: 5px solid #000000;
     box-sizing: border-box;
+     font-size: calc(2.35vw + 16.2px);
+     line-height: calc((2.35vw + 16.2px)*1.16);
 }
 
 @media screen and (min-width: 376px) {
@@ -56,10 +58,3 @@ body {
     	width: calc((100% - 20px)/2);
     	height: calc((100% - 20px)/2);
     }
-
-    .blockText {
-        font-size: 50px;
-        line-height: 58px;
-    }
-
-}
