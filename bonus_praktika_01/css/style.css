@@ -1,17 +1,13 @@
 @font-face {
-	src: url(../fonts/SpaceMono-Regular.ttf);
-	font-family: 'Space Mono';
-	font-weight: normal;
+    src: url(../fonts/SpaceMono-Regular.ttf);
+    font-family: 'Space Mono';
+    font-weight: normal;
 }
 
 body {
     font-family: 'Space Mono', sans-serif;
-    color: #FFFFFF;
-    height: 100vh;
-    background-image: url(../img/bg.png);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
+    font-size: 20px;
+    line-height: 35px;
 }
 
 h1 {
@@ -23,21 +19,118 @@ h1 {
     letter-spacing: -0.05em;
 }
 
-.page {
+h2 {
+    font-size: 25px;
+    line-height: 37px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.whiteText {
+    color: white;
+}
+
+.whiteText:visited {
+    color: white;
+}
+
+.whiteText:hover {
+    background-color: red;
+}
+
+.blackText {
+    color: black;
+}
+
+.blackText:visited {
+    color: black;
+}
+
+.blackText:hover {
+    color: white;
+    background-color: red;
+}
+
+.main {
+    color: white;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    color: black;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 287px;
+    height: 82px;
+    margin-bottom: 38px;
+}
+
+.navigation-container {
+    display: inline-block;
+    margin: 91px 0 78px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin: 62px 0;
+}
+
+.picture {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: pink;
+	margin-right: 20px;
 }
 
-.logo {
-    background-color: red;
-    width: 287px;
-    height: 82px;
+.picture img {
+	margin: 38px 0 50px 0;
+    height: 260px;
+    width: 390px;
 }
 
-.navigation {
-	display: flex;
-	flex-direction: column;
+.description {
+	width: 390px;
+}
+
+.description p {
+	line-height: 30px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-container a {
+	margin: 0 15px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 10px;
 }
