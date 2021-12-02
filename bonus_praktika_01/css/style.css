@@ -134,3 +134,13 @@ a {
     margin: 15px;
     border-radius: 10px;
 }
+
+@media screen and (min-width: 374px) {
+	.content-container {
+		flex-direction: column;
+	}
+
+	.picture {
+		margin: 0;
+	}
+}
