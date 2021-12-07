@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'PF Regal Text Pro';
+    src: url(../font/PFRegalTextPro-RegularA.ttf);
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../font/ProximaNova-Bold.ttf);
+}
+
+body {
+    background-color: black;
+    padding: 8px 60px 0;
+    font-family: 'PF Regal Text Pro', serif;
+}
+
+a {
+    font-family: 'Proxima Nova', sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 41px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 24px;
+}
+
+p {
+    font-family: 'Proxima Nova', sans-serif;
+    color: #9CA1A9;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+}
+
+.header-container a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    transition: 0.5s;
+
+}
+
+.header-container a:hover {
+    color: #A37846;
+}
+
+.navigation a {
+    margin: 0 15px;
+}
+
+.languageAndSearch {
+    display: flex;
+}
+
+.languageAndSearch span {
+    border-right: 1px solid white;
+}
+
+.language {
+    margin-right: 20px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+}
+
+.search div:first-child {
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+}
+
+.search div:last-child {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    height: 15px;
+    border-left: 1px solid white;
+    transform: skew(45deg);
+}
+
+.exchangeRate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 0 16px;
+    font-family: 'PF Regal Text Pro Bold', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.exchangeRate p:nth-child(even) {
+    color: black;
+}
+
+.currency {
+    display: flex;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+}
+
+.sort p {
+    text-transform: uppercase;
+}
+
+.switch {
+    display: block;
+    position: relative;
+    width: 48px;
+    height: 24px;
+    margin-left: 12px;
+    background-color: #E6E6E6;
+    border-radius: 25px;
+}
+
+.switcher {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.newspaper {
+    padding: 60px 60px 88px;
+    background: #F2F2F2;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mainNews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    padding: 45px 66px 30px;
+    background-color: white;
+    border: 5px solid #A37846;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    height: 436px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #9CA1A9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.one {
+    margin: 20px 0;
+}
+
+.sizeM {
+    width: calc((100% - 15px)/2);
+    box-sizing: border-box;
+}
+
+.sizeS {
+    width: calc(50% - 27.5px);
+    height: calc(50% - 25px);
+    box-sizing: border-box;
+}
+
+.blockNews {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.footer-container a {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.column a:last-child {
+    margin-bottom: 34px;
+}
+
+.column div {
+    display: flex;
+    flex-direction: column;
+}
+
+.thanks {
+    display: flex;
+    align-items: center;
+    height: 112px;
+    margin: 0 140px;
+    border-top: 1px solid white;
+}
+
+.thanks span {
+	margin-left: 40px;
+	font-family: 'Proxima Nova', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
