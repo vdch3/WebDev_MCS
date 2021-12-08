@@ -60,11 +60,9 @@ p {
 .header-container a {
     text-transform: uppercase;
     color: white;
-    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     transition: 0.5s;
-
 }
 
 .header-container a:hover {
@@ -120,8 +118,6 @@ p {
     background-color: white;
     margin-bottom: 15px;
     padding: 0 16px;
-    font-family: 'PF Regal Text Pro Bold', sans-serif;
-    font-weight: bold;
     font-size: 17px;
     line-height: 20px;
 }
@@ -153,7 +149,7 @@ p {
     border-radius: 25px;
 }
 
-.switcher {
+.slider {
     position: absolute;
     top: 2px;
     left: 2px;
@@ -174,7 +170,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     height: 250px;
-    padding: 45px 66px 30px;
+    padding: 45px 66px 29px;
     background-color: white;
     border: 5px solid #A37846;
     border-radius: 10px;
@@ -224,15 +220,14 @@ p {
 .footer-container {
     display: flex;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 50px 0 16px;
 }
 
 .footer-container a {
-    font-weight: bold;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.05em;
-    color: #FFFFFF;
+    color: white;
 }
 
 .column a:last-child {
@@ -253,8 +248,8 @@ p {
 }
 
 .thanks span {
-	margin-left: 40px;
-	font-family: 'Proxima Nova', sans-serif;
+    margin-left: 40px;
+    font-family: 'Proxima Nova', sans-serif;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.05em;
